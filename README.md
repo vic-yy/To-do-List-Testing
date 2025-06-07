@@ -65,14 +65,19 @@ Para executar o sistema localmente, siga os passos abaixo:
 
 4. **Executando os testes:**
     ```bash
-    ## NO FRONT END (após instalar dependências)
+    ## FRONT END (após instalar dependências)
     cd frontend
     npm run test
 
     # ou, alternativamente, com cobertura:
     npm run coverage
     ```
-    Os testes automatizados serão executados e o resultado será exibido no terminal e, ao executar o coverage, será gerada uma pasta com os dados gráficos de cobertura dos testes (Istanbul).
+    ```bash
+    ## BACKEND
+    cd backend
+    npm run test
+    ```
+    Os testes automatizados serão executados e o resultado será exibido no terminal e, ao executar o coverage, será gerada uma pasta com os dados gráficos de cobertura dos testes.
 
 > **Observação:** Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
